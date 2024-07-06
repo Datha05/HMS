@@ -1,0 +1,28 @@
+<web-app>
+	<servlet>
+	  	<servlet-name>spl</servlet-name>
+	  	<servlet-class>Registration</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>spl</servlet-name>
+  		<url-pattern>/linking</url-pattern>
+  	</servlet-mapping>
+  	<servlet>
+	  	<servlet-name>spl1</servlet-name>
+	  	<servlet-class>Login</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>spl1</servlet-name>
+  		<url-pattern>/loginlinking</url-pattern>
+  	</servlet-mapping>
+  	<servlet>  
+        <servlet-name>display</servlet-name>  
+        <servlet-class>display</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>display</servlet-name>  
+        <url-pattern>/display</url-pattern>  
+    </servlet-mapping> 
+  	
+</web-app>
